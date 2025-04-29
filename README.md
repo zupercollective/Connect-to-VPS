@@ -2,18 +2,20 @@ Penulis: [Naufal](https://x.com/0xfal)
 
 # Tutorial Menghubungkan VPS lewat Windows Terminal
 
-## 1. Needs
+## 1. Requirements
+
+### Software
 
 PC atau laptop dengan Windows:
 
 | ✅ Windows 11 | ❓ Windows 10 (untested) |
 | ------------- | ------------- |
 
-## 2. Dependencies
+### OpenSSH Client
 
-Cari di pengaturan Windows `Optional feature`.
+Cari di pengaturan Windows `Optional features`.
 
-![image](https://github.com/user-attachments/assets/a9803db9-814d-4e95-b783-e9851c957237)
+![image](https://github.com/user-attachments/assets/9526784e-d5cd-4281-a7b2-67a4a5632b8e)
 
 Cek, apakah `OpenSSH Client` sudah terinstal di PC atau laptop kalian.
 
@@ -23,20 +25,20 @@ Kalau belum, kalian bisa instal dulu dengan klik tombol `View features` di bagia
 
 ![image](https://github.com/user-attachments/assets/52b690e9-664c-4ba8-815c-384d75b59cd3)
 
-## 3. Executions
+## 2. Execution
 
-### 3.1 Open Windows Terminal
+### 2.1 Open Windows Terminal
 
 Buka Terminal, cari di pencarian Windows biar gampang.
 
 ![image](https://github.com/user-attachments/assets/d203c623-ef17-46f6-8804-1e4805ad0111)
 
-### 3.2 Connecting
+### 2.2 Connecting
 
-Ubah `YOUR_VPS_USERNAME` sesuai dengan username VPS-mu, dan ubah `YOUR_VPS_IP` juga sesuai dengan IP address VPS-mu.
+Ubah `<YOUR_VPS_USERNAME>` sesuai dengan username VPS-mu, dan ubah `<YOUR_VPS_IP>` juga sesuai dengan IP address VPS-mu.
 
 ```
-ssh YOUR_VPS_USERNAME@YOUR_VPS_IP
+ssh <YOUR_VPS_USERNAME>@<YOUR_VPS_IP>
 ```
 
 Setelah menjalankan perintah itu, nanti akan muncul pertanyaan `Are you sure you want to continue connecting (yes/no/[fingerprint])?`, jawab aja `yes`.
@@ -49,4 +51,4 @@ Setelah itu, kamu akan diminta memasukkan password VPS-mu.
 ---
 
 Reach us if you have any question:\
-ZuperHunt's [Discord server](https://discord.gg/ZuperHunt) | [X(Twitter)](https://twitter.com/ZuperHunt)
+ZuperCollective's [Discord server](https://discord.gg/ZuperCollective) | [X(Twitter)](https://twitter.com/ZuperCollective)
